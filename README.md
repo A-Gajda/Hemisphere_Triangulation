@@ -25,3 +25,5 @@ Sekcja "Mapa wektorów normalnych" pozwala zdecydować o użyciu mapy wektorów 
 Sekcja "Kolor wypełnienia" zawiera wybór między dokładnym wyznaczaniem koloru każdego z punktów na kuli, a interpolacją koloru z wierzchołków trójkątów z triangulacji.
 
 Sekcja "Źródło światła" dotyczy wszelkich ustawień dotyczących źródła światła i jego ruchu. Pozwala wybrać wysokość "z" światła nad powierzchnią, na której leży półkula, zmienić kolor światła (domyślnie biały), a także rozpocząć lub przerwać ruch świecącego punktu po spirali (przerwanie ruchu nie resetuje pozycji punktu) lub zresetować ruch (zresetowanie nie zatrzymuje ruchu). Po przebyciu przez punkt określonej drogi ruch automatycznie się zatrzymuje i resetuje.
+
+W projekcie wykorzystany został kod klasy DirectBitmap: https://stackoverflow.com/questions/24701703/c-sharp-faster-alternatives-to-setpixel-and-getpixel-for-bitmaps-for-windows-f (pierwsza odpowiedź)
