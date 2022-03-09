@@ -1,3 +1,7 @@
+# Triangulacja półkuli
+
+Półkula, triangulowana i wypełniana kolorem lub teksturą z dodanego przez użytkownika obrazu. Możliwość dodania mapy normalnej, symulującej wypukłości i wklęsłości na powierzchni półkuli.
+
 Grafika Komputerowa 1, projekt 2 - Aleksandra Gajda
 
 Projekt dotyczy triangulacji półkuli oraz wypełniania jej za pomocą odpowiednio zmodyfikowanego koloru lub tekstury, tak aby symulować padające na nią z różnych punktów światło. Na światło widoczne na kuli wpływa umiejscowienie światła, umiejscowienie punktu na kuli oraz (opcjonalnie) mapa wektorów normalnych symulująca powierzchnię.
@@ -6,7 +10,7 @@ W celu optymalizacji renderowania obrazu w czasie poruszania się punktów, czę
 
 Punkt oświetlający półkulę przemieszcza się po spirali. Na początku znajduje się na środku ekranu i stopniowo zatacza coraz większe kręgi. Sprawia to, że na początku ruchu może on być słabo widoczny, w szczególności przy niektórych teksturach.
 
-W folderze "textures" (znajdującym się w tym samym miejscu, co project solution) znajdują się przykładowe tekstury oraz mapy normalne, a także domyślna tekstura oraz mapa normalna. Modyfikacja lub zmiana miejsca tego katalogu może spowodować błędy w działaniu programu.
+W folderze "textures" znajdują się przykładowe tekstury oraz mapy normalne, a także domyślna tekstura oraz mapa normalna. Modyfikacja lub zmiana miejsca tego katalogu może spowodować błędy w działaniu programu.
 
 
 
